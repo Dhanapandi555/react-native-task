@@ -6,7 +6,7 @@ const Controller = ({playOrPause,back,forward,play}) => {
   return (
     <View style={styles.root}>
           <Icon name='play-back' size={30} onPress={ ()=>back()}/>
-          {play? <Icon name='play' size={30} onPress={ ()=>playOrPause()} />: <Icon name='pause' size={30} nPress={ ()=>playOrPause()}/>}
+          {play? <Icon name='pause' size={30} onPress={ ()=>playOrPause()} />: <Icon name='play' size={30} onPress={ ()=>playOrPause()}/>}
          
          
           <Icon name='play-forward' size={30} onPress={ ()=>forward()}/>

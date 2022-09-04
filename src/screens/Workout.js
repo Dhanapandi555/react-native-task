@@ -21,7 +21,8 @@ const Workout = () => {
     if(currentIndex-1>=0)
     setCurrentIndex(prev =>prev-1)
   }
- const  playOrPause = () => {
+  const playOrPause = () => {
+   console.log(play)
    setPlay(prev => !prev)
    setPlayTimer(prev => !prev)
  }
